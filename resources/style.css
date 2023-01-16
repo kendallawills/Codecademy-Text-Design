@@ -55,11 +55,30 @@ img {
     padding: 10px 30px;
 }
 
-.clearfix {
-
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
 }
 
 /* TYPOGRAPHY */
+
+h1 {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: calc(64px / 1.5);
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #414546;
+    line-height: 23px;
+    margin: 0 0 15px;
+}
 
 li {
     font-family: "Lato", Helvetica, sans-serif;
@@ -138,10 +157,14 @@ a {
 
 /* MAIN CONTENT */
 
-.site-main-header {
-    
+.site-main {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    padding: 30px 15px;
 }
 
-#page-title {
-
+.site-main-header {
+    text-align: center;
+    margin-bottom: 30px;
 }
