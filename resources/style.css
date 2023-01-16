@@ -93,6 +93,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+h3 {
+
+}
+
 p {
     font-family: "Lato", Helvetica, sans-serif;
     font-size: 16px;
@@ -227,3 +231,28 @@ label {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+
+/* POPULAR */
+
+.site-main-section {
+
+}
+
+.recipe-preview {
+
+}
+
+.recipe-preview-content {
+
+}
+
+.recipe-preview-img {
+
+}
+
+.recipe-more {
+
+}
+
+/* FOOTER */
+
