@@ -55,6 +55,10 @@ img {
     padding: 10px 30px;
 }
 
+.clearfix {
+
+}
+
 /* TYPOGRAPHY */
 
 li {
@@ -130,4 +134,14 @@ a {
 .site-nav-right li:not(:last-child),
 .site-nav-mobile li:not(:last-child) {
     margin-right: 25px;
+}
+
+/* MAIN CONTENT */
+
+.site-main-header {
+    
+}
+
+#page-title {
+
 }
